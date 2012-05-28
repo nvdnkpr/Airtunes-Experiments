@@ -34,7 +34,7 @@ NSString * const TIAirtunesReceiverCommandFlush = @"FLUSH";
 NSString * const TIAirtunesReceiverCommandSetParameter = @"SET_PARAMETER";
 NSString * const TIAirtunesReceiverCommandTeardown = @"TEARDOWN";
 
-NSInteger const kTIAirtunesReceiverFramesPerPacket = 4096;
+NSInteger const kTIAirtunesReceiverFramesPerPacket = 352;
 NSInteger const kTIAirtunesReceiverDefaultVolume = 0;
 
 @interface TIAirtunesReceiver ()
@@ -380,12 +380,15 @@ NSInteger const kTIAirtunesReceiverDefaultVolume = 0;
 
 - (void)bufferOutgoingAudio {
 	
-	/*
 	if (audioOuputBuffer.length){
 		
 		NSInteger audioLength = MIN(kTIAirtunesReceiverFramesPerPacket * 4, audioOuputBuffer.length);
 		unsigned char audioBuffer[audioLength];
 		[audioOuputBuffer getBytes:audioBuffer length:audioLength];
+		
+		// This should work, right? The sound.m4a is ALAC encoded, so don't need to do that ourselves, or do we?
+		// The header follows the pattern described in the protocol.
+		// Maybe the encryptor isn't working, but I'm unsure how to test it.
 		
 		NSMutableData * headerData = [[NSMutableData alloc] initWithLength:12];
 		[headerData	replaceBytesInRange:NSMakeRange(0, 2) withBytes:(unsigned char[2]){0x80, (aSeq ? 0xe0 : 0x60)}];
@@ -415,7 +418,6 @@ NSInteger const kTIAirtunesReceiverDefaultVolume = 0;
 		
 		[encodedData release];
 	}
-	 */
 }
 
 - (void)stream:(NSStream *)aStream handleEvent:(NSStreamEvent)eventCode {

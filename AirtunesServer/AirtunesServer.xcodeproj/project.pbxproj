@@ -19,6 +19,7 @@
 		E25E60991503137B00AED8AA /* TIAirtunesReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = E25E60931503128100AED8AA /* TIAirtunesReceiver.m */; };
 		E29197171573AB7700DE6B02 /* TIAirtunesEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = E29197151573AB7700DE6B02 /* TIAirtunesEncryptor.m */; };
 		E291971A1573ABB100DE6B02 /* TIAirtunesAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E29197191573ABB100DE6B02 /* TIAirtunesAdditions.m */; };
+		E291972A1573B99C00DE6B02 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29197291573B99C00DE6B02 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		E29197151573AB7700DE6B02 /* TIAirtunesEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TIAirtunesEncryptor.m; path = ../../TIAirtunesEncryptor.m; sourceTree = "<group>"; };
 		E29197181573ABB100DE6B02 /* TIAirtunesAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TIAirtunesAdditions.h; path = ../../TIAirtunesAdditions.h; sourceTree = "<group>"; };
 		E29197191573ABB100DE6B02 /* TIAirtunesAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TIAirtunesAdditions.m; path = ../../TIAirtunesAdditions.m; sourceTree = "<group>"; };
+		E29197291573B99C00DE6B02 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E291972A1573B99C00DE6B02 /* AudioToolbox.framework in Frameworks */,
 				E243DC5015737FF80009E776 /* libcrypto.dylib in Frameworks */,
 				E25E60971503130600AED8AA /* Security.framework in Frameworks */,
 				E25E606D150311E600AED8AA /* Cocoa.framework in Frameworks */,
@@ -81,6 +84,7 @@
 		E25E606B150311E600AED8AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E29197291573B99C00DE6B02 /* AudioToolbox.framework */,
 				E243DC4F15737FF80009E776 /* libcrypto.dylib */,
 				E25E60961503130600AED8AA /* Security.framework */,
 				E25E606C150311E600AED8AA /* Cocoa.framework */,
