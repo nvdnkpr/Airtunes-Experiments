@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'AirtunesServer' target in the 'AirtunesServer' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif

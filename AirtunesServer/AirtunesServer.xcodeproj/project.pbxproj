@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E206C9861504394400F4F994 /* sound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E206C9851504381F00F4F994 /* sound.m4a */; };
+		E206C989150441B300F4F994 /* TIAirtunesDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = E206C988150441B300F4F994 /* TIAirtunesDiscovery.m */; };
+		E243DC5015737FF80009E776 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E243DC4F15737FF80009E776 /* libcrypto.dylib */; };
+		E25E606D150311E600AED8AA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25E606C150311E600AED8AA /* Cocoa.framework */; };
+		E25E6079150311E700AED8AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E25E6078150311E700AED8AA /* main.m */; };
+		E25E6080150311E700AED8AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E25E607F150311E700AED8AA /* AppDelegate.m */; };
+		E25E6095150312F000AED8AA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E25E6094150312F000AED8AA /* MainMenu.xib */; };
+		E25E60971503130600AED8AA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25E60961503130600AED8AA /* Security.framework */; };
+		E25E60981503137900AED8AA /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25E60901503126000AED8AA /* MainWindowController.m */; };
+		E25E60991503137B00AED8AA /* TIAirtunesReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = E25E60931503128100AED8AA /* TIAirtunesReceiver.m */; };
+		E29197171573AB7700DE6B02 /* TIAirtunesEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = E29197151573AB7700DE6B02 /* TIAirtunesEncryptor.m */; };
+		E291971A1573ABB100DE6B02 /* TIAirtunesAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E29197191573ABB100DE6B02 /* TIAirtunesAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E206C9851504381F00F4F994 /* sound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound.m4a; sourceTree = "<group>"; };
+		E206C987150441B200F4F994 /* TIAirtunesDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TIAirtunesDiscovery.h; path = ../../TIAirtunesDiscovery.h; sourceTree = "<group>"; };
+		E206C988150441B300F4F994 /* TIAirtunesDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TIAirtunesDiscovery.m; path = ../../TIAirtunesDiscovery.m; sourceTree = "<group>"; };
+		E243DC4F15737FF80009E776 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		E25E6068150311E600AED8AA /* AirtunesServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirtunesServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25E606C150311E600AED8AA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E25E606F150311E600AED8AA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E25E6071150311E600AED8AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E25E6074150311E600AED8AA /* AirtunesServer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirtunesServer-Info.plist"; sourceTree = "<group>"; };
+		E25E6078150311E700AED8AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E25E607A150311E700AED8AA /* AirtunesServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirtunesServer-Prefix.pch"; sourceTree = "<group>"; };
+		E25E607E150311E700AED8AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E25E607F150311E700AED8AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E25E608F1503126000AED8AA /* MainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		E25E60901503126000AED8AA /* MainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		E25E60921503128100AED8AA /* TIAirtunesReceiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TIAirtunesReceiver.h; path = ../../TIAirtunesReceiver.h; sourceTree = "<group>"; };
+		E25E60931503128100AED8AA /* TIAirtunesReceiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TIAirtunesReceiver.m; path = ../../TIAirtunesReceiver.m; sourceTree = "<group>"; };
+		E25E6094150312F000AED8AA /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		E25E60961503130600AED8AA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E29197141573AB7700DE6B02 /* TIAirtunesEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TIAirtunesEncryptor.h; path = ../../TIAirtunesEncryptor.h; sourceTree = "<group>"; };
+		E29197151573AB7700DE6B02 /* TIAirtunesEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TIAirtunesEncryptor.m; path = ../../TIAirtunesEncryptor.m; sourceTree = "<group>"; };
+		E29197181573ABB100DE6B02 /* TIAirtunesAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TIAirtunesAdditions.h; path = ../../TIAirtunesAdditions.h; sourceTree = "<group>"; };
+		E29197191573ABB100DE6B02 /* TIAirtunesAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TIAirtunesAdditions.m; path = ../../TIAirtunesAdditions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E25E6065150311E600AED8AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E243DC5015737FF80009E776 /* libcrypto.dylib in Frameworks */,
+				E25E60971503130600AED8AA /* Security.framework in Frameworks */,
+				E25E606D150311E600AED8AA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E25E605D150311E600AED8AA = {
+			isa = PBXGroup;
+			children = (
+				E25E6072150311E600AED8AA /* AirtunesServer */,
+				E25E606B150311E600AED8AA /* Frameworks */,
+				E25E6069150311E600AED8AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E25E6069150311E600AED8AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E25E6068150311E600AED8AA /* AirtunesServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E25E606B150311E600AED8AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E243DC4F15737FF80009E776 /* libcrypto.dylib */,
+				E25E60961503130600AED8AA /* Security.framework */,
+				E25E606C150311E600AED8AA /* Cocoa.framework */,
+				E25E606E150311E600AED8AA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E25E606E150311E600AED8AA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E25E606F150311E600AED8AA /* AppKit.framework */,
+				E25E6071150311E600AED8AA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E25E6072150311E600AED8AA /* AirtunesServer */ = {
+			isa = PBXGroup;
+			children = (
+				E25E607E150311E700AED8AA /* AppDelegate.h */,
+				E25E607F150311E700AED8AA /* AppDelegate.m */,
+				E25E608F1503126000AED8AA /* MainWindowController.h */,
+				E25E60901503126000AED8AA /* MainWindowController.m */,
+				E25E60921503128100AED8AA /* TIAirtunesReceiver.h */,
+				E25E60931503128100AED8AA /* TIAirtunesReceiver.m */,
+				E206C987150441B200F4F994 /* TIAirtunesDiscovery.h */,
+				E206C988150441B300F4F994 /* TIAirtunesDiscovery.m */,
+				E29197141573AB7700DE6B02 /* TIAirtunesEncryptor.h */,
+				E29197151573AB7700DE6B02 /* TIAirtunesEncryptor.m */,
+				E29197181573ABB100DE6B02 /* TIAirtunesAdditions.h */,
+				E29197191573ABB100DE6B02 /* TIAirtunesAdditions.m */,
+				E25E6073150311E600AED8AA /* Supporting Files */,
+			);
+			path = AirtunesServer;
+			sourceTree = "<group>";
+		};
+		E25E6073150311E600AED8AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E206C9851504381F00F4F994 /* sound.m4a */,
+				E25E6094150312F000AED8AA /* MainMenu.xib */,
+				E25E6074150311E600AED8AA /* AirtunesServer-Info.plist */,
+				E25E6078150311E700AED8AA /* main.m */,
+				E25E607A150311E700AED8AA /* AirtunesServer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E25E6067150311E600AED8AA /* AirtunesServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25E6086150311E700AED8AA /* Build configuration list for PBXNativeTarget "AirtunesServer" */;
+			buildPhases = (
+				E25E6064150311E600AED8AA /* Sources */,
+				E25E6065150311E600AED8AA /* Frameworks */,
+				E25E6066150311E600AED8AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirtunesServer;
+			productName = AirtunesServer;
+			productReference = E25E6068150311E600AED8AA /* AirtunesServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E25E605F150311E600AED8AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Tom Irving";
+			};
+			buildConfigurationList = E25E6062150311E600AED8AA /* Build configuration list for PBXProject "AirtunesServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E25E605D150311E600AED8AA;
+			productRefGroup = E25E6069150311E600AED8AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E25E6067150311E600AED8AA /* AirtunesServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E25E6066150311E600AED8AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25E6095150312F000AED8AA /* MainMenu.xib in Resources */,
+				E206C9861504394400F4F994 /* sound.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E25E6064150311E600AED8AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25E6079150311E700AED8AA /* main.m in Sources */,
+				E25E6080150311E700AED8AA /* AppDelegate.m in Sources */,
+				E25E60981503137900AED8AA /* MainWindowController.m in Sources */,
+				E25E60991503137B00AED8AA /* TIAirtunesReceiver.m in Sources */,
+				E206C989150441B300F4F994 /* TIAirtunesDiscovery.m in Sources */,
+				E29197171573AB7700DE6B02 /* TIAirtunesEncryptor.m in Sources */,
+				E291971A1573ABB100DE6B02 /* TIAirtunesAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E25E6084150311E700AED8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E25E6085150311E700AED8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E25E6087150311E700AED8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirtunesServer/AirtunesServer-Prefix.pch";
+				INFOPLIST_FILE = "AirtunesServer/AirtunesServer-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E25E6088150311E700AED8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirtunesServer/AirtunesServer-Prefix.pch";
+				INFOPLIST_FILE = "AirtunesServer/AirtunesServer-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E25E6062150311E600AED8AA /* Build configuration list for PBXProject "AirtunesServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25E6084150311E700AED8AA /* Debug */,
+				E25E6085150311E700AED8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25E6086150311E700AED8AA /* Build configuration list for PBXNativeTarget "AirtunesServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25E6087150311E700AED8AA /* Debug */,
+				E25E6088150311E700AED8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E25E605F150311E600AED8AA /* Project object */;
+}
